@@ -16,10 +16,11 @@ SuperDynamicViewPager :
 [![](https://jitpack.io/v/RaymonKim/SuperDynamicViewPager.svg)](https://jitpack.io/#RaymonKim/SuperDynamicViewPager)
   - Simply add this to your library.
   - Latest version is 1.0
-------------------------------------
+-----------------------------------
 	dependencies {
-	        implementation 'com.github.RaymonKim:SuperDynamicViewPager:1.0'
+		implementation 'com.github.RaymonKim:SuperDynamicViewPager:1.0'
 	}
+-----------------------------------
 # Sample
     <raymon.superdynamicviewpager.SuperDynamicViewPager
         android:id="@+id/pager_wrap"
