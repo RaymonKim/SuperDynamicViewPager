@@ -28,7 +28,7 @@ public class CommonPagerAdapter extends PagerAdapter {
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         View vChild = LayoutInflater.from(mContext).inflate(R.layout.pager_item, container, false);
         TextView tvTitle = vChild.findViewById(R.id.tvTitle);
-        tvTitle.setText(String.format("Position : %s", position));
+        tvTitle.setText(String.format("Position : %s", position + 1));
         vChild.setBackgroundResource(mColorArray[position % mColorArray.length]);
         container.addView(vChild);
         return vChild;
