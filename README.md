@@ -1,12 +1,31 @@
 # SuperDynamicViewPager
 
 SuperDynamicViewPager :
-  ViewPager with dynamic width or height!
+  - ViewPager with dynamic width or height!
   
 # Features
   - You can set width or height of ViewPager based on its child's maximum height.
   - You can set size of ViewPager with ratio.
 
-# Outcome
-![Example ScreenShot.png](https://drive.google.com/open?id=11fY6mOnLvOBSt_w1BXKlyP6ISvpNvekE)
+# ScreenShot
+<div>.
+  <img width="500" src="https://user-images.githubusercontent.com/26247304/44955858-12c63400-aef5-11e8-8ebc-058fac8f020f.png"/>
+</div>
   
+# How To Use
+    <raymon.superdynamicviewpager.SuperDynamicViewPager
+        android:id="@+id/pager_wrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:pagerMode="wrap"/>
+
+    <raymon.superdynamicviewpager.SuperDynamicViewPager
+        android:id="@+id/pager_ratio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:pagerMode="ratio"
+        app:pagerRatio="1.8"/>
+
+  Attributes
+  - Mode : Ratio, Wrap
+  - Ratio : Float
