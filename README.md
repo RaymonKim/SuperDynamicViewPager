@@ -13,6 +13,13 @@ SuperDynamicViewPager :
 </div>
   
 # How To Use
+[![](https://jitpack.io/v/RaymonKim/SuperDynamicViewPager.svg)](https://jitpack.io/#RaymonKim/SuperDynamicViewPager)
+----------------------------
+	dependencies {
+	        implementation 'com.github.RaymonKim:SuperDynamicViewPager:1.0'
+	}
+
+# Sample
     <raymon.superdynamicviewpager.SuperDynamicViewPager
         android:id="@+id/pager_wrap"
         android:layout_width="match_parent"
