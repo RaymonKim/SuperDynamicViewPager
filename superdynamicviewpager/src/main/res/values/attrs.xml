@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SuperDynamicViewPager">
+        <attr name="pagerMode">
+            <flag name="wrap" value="0"/>
+            <flag name="ratio" value="1"/>
+        </attr>
+        <attr name="pagerRatio" format="float" />
+    </declare-styleable>
+</resources>
